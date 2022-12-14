@@ -10,7 +10,7 @@ path = "src/lib.rs"
 crate-type = ["staticlib"]
 
 [dependencies]
-rocksdb = { path = "../../.." }
+rocksdb = { path = "../.." }
 
 [dependencies.cxx]
 version = "1"
