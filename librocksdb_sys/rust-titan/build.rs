@@ -17,7 +17,7 @@ fn main() {
         .flag("-std=c++20")
         .flag_if_supported("-Wall")
         .include("include")
-        .include("../../rocksdb/include")
-        .include("../../crocksdb")
+        .include("../rocksdb/include")
+        .include("../crocksdb")
         .compile("rust-titan");
 }
